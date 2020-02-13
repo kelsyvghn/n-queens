@@ -149,8 +149,8 @@
       var colIndex = majorDiagonalColumnIndexAtFirstRow;
       var rowIndex = 0;
       var board = this.rows();
-      for (var i=1; i<board.length; i++) {
-        debugger;
+      debugger;
+      for (var i=0; i<board.length; i++) {
         if (board[i][colIndex]){
           return true;
         }
